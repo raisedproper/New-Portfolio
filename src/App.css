@@ -67,7 +67,7 @@
 /*the paralax body image styling below in App-body*/
 
 .App-body {
-  background-image: url(https://cdn.shopify.com/s/files/1/1003/3354/files/sixth_002.jpg?6613698026306414731);
+  background-color: white;
   background-size: cover;
   width: 100%;
   /*height: 100%;*/
