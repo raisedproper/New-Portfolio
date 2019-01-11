@@ -1,0 +1,406 @@
+.App {
+  text-align: center;
+}
+
+
+/*the about me styling*/
+
+.design {
+ 
+ height: 100px;
+ 
+}
+
+
+/*the different font styles and placements*/
+
+
+.bodyFont {
+  text-align: left;
+  padding-left: 3%;
+  padding-top: 18%;
+  padding-bottom: 22%
+}
+
+.bodyFont1 {
+  padding-top: 0%;
+
+ 
+}
+
+.bodyFont2 {
+  
+}
+
+.mainFont {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  color: white;
+  font-weight: 500
+}
+
+.mainFont2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  color: white;
+  font-weight: 100
+
+  
+}
+
+.mainFont, .mainFont2 {
+  display : inline-block;
+ 
+}
+
+.subFont {
+  font-family: 'Raleway', sans-serif; 
+  font-size: 50px;
+  color: white;
+  display : inline-block;
+  word-break : break-all;
+  padding-top: .3%;
+  font-weight: 100;
+  padding-right: 30px;
+}
+
+/*the paralax body image styling below in App-body*/
+
+.App-body {
+  background-image: url(https://cdn.shopify.com/s/files/1/1003/3354/files/sixth_002.jpg?6613698026306414731);
+  background-size: cover;
+  width: 100%;
+  /*height: 100%;*/
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+  /* the styling for the about me part of the page */
+
+  #leftAlign {
+    padding-top: 10%;
+    text-align: center;
+
+  }
+  .pageLayout {
+    padding-left: 30%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    color: white;
+    font-weight: 100
+  }
+  .mainFont3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    color: white;
+    font-weight: 100;
+    display: inline;
+    padding-right: 45px;
+    
+  }
+
+  p {
+    margin: 0 0 10px;
+  }
+
+.paragraphBox {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: white;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 10%;
+  /* font-weight: bold */
+}
+.firstWord {
+  font-size: 25px;
+  font-weight: bold;
+  display : inline-block;
+}
+
+/*the whitebox sky picture background*/
+
+.whiteBox {
+  background-color: white;
+  padding-bottom: 10px;
+  height: 60%;
+  width: 100%;
+  background-image: url(https://cdn.shopify.com/s/files/1/1003/3354/files/sixth_002.jpg?6613698026306414731);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left
+}
+
+.whiteBox1 {
+  
+  padding-bottom: 10px;
+  height: 80%;
+  width: 100%;
+  background-image: url(https://cdn.shopify.com/s/files/1/1003/3354/files/sixth_002.jpg?6613698026306414731);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left
+}
+
+.whiteBox2 {
+  background-color: grey;
+  padding-bottom: 10px;
+  height: 110%;
+  width: 100%;
+  background-image: url(http://i66.tinypic.com/2z9mngo.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left
+}
+
+.whiteBox3 {
+  background-color: grey;
+  padding-bottom: 10px;
+  height: 60%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  background-image: url(http://40.media.tumblr.com/4ae683b1aacfbe7d261aea8d0bbd206f/tumblr_n4rhrdnhpN1qdblieo5_1280.jpg)
+
+}
+
+/* slider styling */
+
+.sliderHolder {
+  background-image: url(http://i68.tinypic.com/2zs2lxf.png); 
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.sliderHolder2 {
+  background-image: url(http://i66.tinypic.com/8whx0n.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sliderHolder3 {
+  background-image: url(http://i63.tinypic.com/2rer6nr.png); 
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sliderHolder4 {
+  background-image: url(http://i67.tinypic.com/2hs2qec.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sliderHolder5 {
+  background-image: url(http://i68.tinypic.com/2n0syg0.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sliderHolder6 {
+  background-image: url(http://i65.tinypic.com/qz2fcp.jpg);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*cnotes slides*/
+
+
+
+.cnoteHolder1 {
+  background-image: url(http://i66.tinypic.com/a3yt94.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cnoteHolder2 {
+  background-image: url(http://i66.tinypic.com/4h6v86.png); ;
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cnoteHolder3 {
+  background-image:  url(http://i68.tinypic.com/jgl3wn.jpg);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cnoteHolder4 {
+  background-image: url(http://i64.tinypic.com/1z6sdiv.png); 
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cnoteHolder5 {
+  background-image: url(http://i64.tinypic.com/3v2xd.jpg);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* kissing kate slides*/
+
+.kkHolder1 {
+  background-image: url(http://i64.tinypic.com/2w2na1i.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kkHolder2 {
+  background-image: url(http://i66.tinypic.com/28wp4jp.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kkHolder3 {
+  background-image: url(http://i63.tinypic.com/15rfwit.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kkHolder4 {
+  background-image: url(http://i66.tinypic.com/2dax74o.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kkHolder5 {
+  background-image: url(http://i66.tinypic.com/2pzwpww.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kkHolder6 {
+  background-image: url(http://i68.tinypic.com/2qbxftd.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kkHolder7 {
+  background-image: url(http://i64.tinypic.com/r7u538.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*contact me*/
+
+.kkHolder7 {
+  background-image: url(http://i64.tinypic.com/r7u538.png);
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body1 {
+  background-image: url(https://cdn.shopify.com/s/files/1/1003/3354/files/sixth_002.jpg?6613698026306414731);
+  height: 100%;
+  padding-top: 20%;
+  text-align: left;
+  padding-left: 3%;
+
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
