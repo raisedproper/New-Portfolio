@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import AboutMe from "./components/AboutMe/aboutMe"
 import MyDesign from "./components/MyDesign/myDesign"
 import Bio from "./components/Bio/bio"
-import Slider from './components/slider';
 import Secondslide from './components/Secondslide/Secondslide';
 import Thirdslide from './components/Thirdslide';
 import Fourthslide from './components/Fourthslide';
